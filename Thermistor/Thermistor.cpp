@@ -9,7 +9,6 @@
 
 /* ======================================================== */
 
-#include "WProgram.h"
 #include "Thermistor.h"
 
 //--------------------------
@@ -57,7 +56,7 @@ double Thermistor::getTemp() {
   */
 
   // Uncomment this line for the function to return Fahrenheit instead.
-  Temp = (Temp * 9.0)/ 5.0 + 32.0; // Convert to Fahrenheit
+  //Temp = (Temp * 9.0)/ 5.0 + 32.0; // Convert to Fahrenheit
 
   return Temp;  // Return the Temperature
 }
